@@ -1,6 +1,6 @@
 [submodule "api"]
 	path = api
-	url = ./api
+	url = git@github.com:csanbardev/interia-api.git
 [submodule "front"]
 	path = front
-	url = ./front
+	url = git@github.com:csanbardev/interia-front.git
