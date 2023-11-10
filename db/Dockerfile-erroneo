@@ -1,0 +1,18 @@
+FROM alpine:latest
+
+WORKDIR /app
+
+
+RUN apk update \
+    && apk add mariadb mariadb-client
+
+# Copia script de inicio
+COPY ./init-script.sh ./
+
+# Establece permisos
+RUN chmod +x ./init-script.sh
+
+EXPOSE 3307
+
+CMD ["sh", "./init-script.sh"]
+ 
