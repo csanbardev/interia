@@ -4,12 +4,22 @@ services:
     build: ./db/
     environment:
       - MYSQL_ROOT_PASSWORD=root
+      - MYSQL_USERr=root
+      - MYSQL_PASSWORD=root
+      - MYSQL_DATABASE=tutowebdb    
     ports:
-      - "3307:3307"
+      - "3306:3306"
   api:
     build: ./api/
     depends_on:
       - database
+    environment:
+      - PORT = 3006
+      - DB_HOST= localhost
+      - DB_PORT = 3307
+      - DB_USER=root
+      - DB_PASSWORD=root
+      - DB_DATABASE=tutowebdb
     ports:
       - "3006:3006"
   front:
