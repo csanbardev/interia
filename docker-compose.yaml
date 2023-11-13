@@ -13,13 +13,6 @@ services:
     build: ./api/
     depends_on:
       - database
-    environment:
-      - PORT = 3006
-      - DB_HOST = database  
-      - DB_PORT = 3306
-      - DB_USER=root
-      - DB_PASSWORD=root
-      - DB_DATABASE=tutowebdb
     ports:
       - "3006:3006"
   front:
