@@ -6,7 +6,7 @@ services:
       - MYSQL_ROOT_PASSWORD=root
       - MYSQL_USERr=root
       - MYSQL_PASSWORD=root
-      - MYSQL_DATABASE=tutowebdb    
+      - MYSQL_DATABASE=pre_interia    
     ports:
       - "3306:3306"
   api:
