@@ -48,6 +48,14 @@ Si todo es correcto, debería crear las imágenes e iniciar los contenedores. De
 
 ```
 
+## Capturas de la aplicación
+
+![App Screenshot](https://i.ibb.co/xjQG54V/Screenshot-2024-01-02-at-12-20-26-Interia.png)
+
+![App Screenshot](https://i.ibb.co/DKgzHmR/Screenshot-2024-01-02-at-12-20-49-Interia.png)
+
+![App Screenshot](https://i.ibb.co/dJNP28L/Screenshot-2024-01-02-at-12-21-01-Interia.png)
+
 
 ## FAQ
 
