@@ -1,8 +1,8 @@
 CREATE TABLE t_categories(
   cat_id INT auto_increment PRIMARY KEY,
-  cat_name VARCHAR(20) NOT NULL unique,
+  cat_name VARCHAR(30) NOT NULL unique,
   cat_pending CHAR(1) DEFAULT 1,
-  cat_img VARCHAR(70)
+  cat_img VARCHAR(110)
 );
 
 CREATE TABLE t_users(
@@ -11,7 +11,7 @@ CREATE TABLE t_users(
   usr_password VARCHAR(200) not null,
   usr_email VARCHAR(50),
   usr_role VARCHAR(6) DEFAULT 'user',
-  usr_avatar VARCHAR(50) DEFAULT 'uploads/avatar.png'
+  usr_avatar VARCHAR(110) DEFAULT 'uploads/avatar.png'
 );
 
 CREATE TABLE t_tutorials(
